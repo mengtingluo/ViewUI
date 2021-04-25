@@ -16376,11 +16376,11 @@ exports.default = {
                     (0, _newArrowCheck3.default)(this, _this2);
                     return this['disabled' + String(type)];
                 }.bind(this));
-                var disabledHMS = _disabled.map(function (preDisabled, j) {
+                var disabledHMS = _disabled.map(function (j) {
                     (0, _newArrowCheck3.default)(this, _this2);
 
                     var slot = slots[j];
-                    var toDisable = preDisabled;
+                    var toDisable = [];
 
                     var _loop = function _loop(i) {
                         var hms = _this2.timeSlots.map(function (slot, x) {
